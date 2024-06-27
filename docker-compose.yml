@@ -2,7 +2,7 @@ version: '3.3'
 services:
   jenkins:
     image: jenkins:react
-    container_name: jenkinss
+    container_name: jenkinstest
     environment:
       - CASC_JENKINS_CONFIG=/var/jenkins_home/casc.yaml
       - JENKINS_ADMIN_ID=${ENV_JENKINS_ADMIN_ID}
